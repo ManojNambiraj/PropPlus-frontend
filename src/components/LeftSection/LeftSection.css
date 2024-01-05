@@ -1,0 +1,72 @@
+.section_left_Top{
+    height: 57vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px 10px;
+}
+
+.recent_heading_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_icon_heading > i{
+    font-size: 1.5em;
+    color: grey;
+    background: #f6f1f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.headings .main_heading{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(101, 85, 85);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 5px;
+}
+
+.headings .sub_heading{
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(195, 169, 169);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.video_card{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.card_imgs{
+    width: 70px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.card_imgs > img{
+    width: 100%;
+    height: 100%;
+}
+
+.card_main_heading{
+    font-weight: 700;
+}
+
+.card_sub_title{
+    color: rgb(190, 176, 176);
+    font-weight: 600;
+}
+
+.recent_Section_cards{
+    height: 500px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+

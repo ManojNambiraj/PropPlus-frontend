@@ -1,0 +1,62 @@
+.brand_name{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: grey;
+}
+
+.searchBar{
+    position: relative;
+    font-size: 1.3em;
+    color: grey;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchBar > input{
+    border: none;
+    width: 180px;
+}
+
+.searchBar > input::placeholder{
+ color: grey;
+ font-size: 1.2em;
+ padding: 10px;
+}
+
+.profiles_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.bell_icon > i,
+.message_icon > i{
+    font-size: 1.2em;
+}
+
+.profiles_section > i{
+    font-size: 1.4em;
+}
+
+.profile_image{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.profile_image > img{
+    width: 100%;
+    height: 100%;
+}
